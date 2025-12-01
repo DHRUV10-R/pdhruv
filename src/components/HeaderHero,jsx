@@ -1,0 +1,28 @@
+import React from "react";
+
+export default function HeaderHero() {
+  return (
+    <section className="hero-container">
+      <div className="badge">🟢 Open Collaborations</div>
+
+      <h1 className="hero-title">Hi, I'm Dhruv</h1>
+      <h2 className="hero-subtitle">Full Stack Web Developer</h2>
+
+      <p className="hero-text">
+        I'm a software engineer passionate about backend systems, modern front-end experiences,
+        and cloud infrastructure — delivering scalable, high-quality applications with 
+        clean architecture and lasting impact.
+      </p>
+
+      <div className="hero-buttons">
+        <button className="primary-btn">Hire Me</button>
+        <button className="outline-btn">Download My Resume</button>
+      </div>
+
+      <div className="stats-row">
+        <div><span>100%</span><p>Client Approval</p></div>
+        <div><span>24/7</span><p>Connect Us</p></div>
+      </div>
+    </section>
+  );
+}

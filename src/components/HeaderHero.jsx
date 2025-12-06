@@ -1,4 +1,5 @@
 import React from "react";
+import myPhoto from "../assests/1.png";
 
 export default function HeaderHero() {
   return (
@@ -20,9 +21,15 @@ export default function HeaderHero() {
       </div>
 
       <div className="stats-row">
-        <div><span>100%</span><p>Client Approval</p></div>
+        
         <div><span>24/7</span><p>Connect Us</p></div>
       </div>
+
+       {/* --- Your Image --- */}
+      <div className="hero-right">
+        <img src={myPhoto} alt="Dhruv Portfolio" className="1.png" />
+      </div>
+
     </section>
   );
 }
